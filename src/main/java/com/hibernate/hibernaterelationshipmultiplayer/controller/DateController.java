@@ -15,7 +15,7 @@ import java.util.Date;
 @RequestMapping("/api")
 public class DateController {
 
-//    localhost:8080/api/date/?d=18.10.10//
+//    localhost:8080/api/date/?d=18.10.10///
 
     @PostMapping("/date")
     public Date date(@RequestParam("d")@DateTimeFormat(pattern = "dd.MM.yy") Date date) {
